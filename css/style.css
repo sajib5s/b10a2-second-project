@@ -157,19 +157,175 @@
     color: #ffffff;
     font-size: 18px;
     font-weight: 600;
+    margin-left: 50px;
+}
+.time{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 70px;
+}
+.practise{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.lose{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.span{
+    margin-left: 20px;
 }
 .we{
     color: #ffffff;
     font-weight: 400;
     font-size: 14px;
+   
 }
 .pictures{
-    align-items: center;
+   justify-content: center;
+   gap: 100px;
+   margin-top: 40px;
+   border-radius: 50%;
+}
+.image-item{
+    border-radius: 50%;
 }
 
-/****************habit start***************/
-
-
-
-
 /****************habit end***************/
+
+/****************run and extra start***************/
+.run-part{
+    background-color: #222222;
+    margin-bottom: 30px;
+}
+.extra{
+    font-size: 40px;
+    color: #ffffff;
+}
+.believe{
+    color: #ffffff;
+    font-size: 14px;
+}
+.should{
+    margin-right: 50px;
+}
+.regardles{
+  margin-right: 8px;
+}
+.hundred{
+    margin-right: 162px;
+}
+.button{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #E6533C;
+    padding: 12px 50px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+.run-picture{
+    max-width: 360px;
+    max-height: 300px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+.full-item {
+    justify-content: center;
+    gap: 250px;
+    margin-top: 40px;
+}
+.run-extra{
+    margin-top: 30px;
+}
+.run-image{
+    margin-top: 30px;
+    
+}
+/****************run and extra end***************/
+
+/************Trainings and Exercises start*******/
+.exercise{
+    color: #ffffff;
+    font-size: 40px;
+    margin-left: 255px;
+}
+.everyone{
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 255px;
+    margin-bottom: 50px;
+}
+.image-one{
+    width: 310px;
+    height: 200px;
+    margin-left: 260px;
+}
+.image-two{
+    width: 450px;
+    height: 200px;
+    margin-right: 100px;
+    position: absolute;
+}
+
+.image-three{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+}
+
+.image-four{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 260px;
+}
+.image-five{
+    width: 230px;
+    height: 200px;
+    position: absolute;
+    margin-left: 220px;
+}
+.image-six{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    margin-right: 90px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-right: 50px;
+}
+/************Trainings and Exercises end*********/
+
+
+/* responsive website********************/
+@media screen and (max-width:576px) {
+    .fintes{
+        margin-left: 50px;
+    }
+    .get-body{
+        margin-left: 50px;
+    }
+    .two-button{
+        display: flex;
+        width: 400px;
+        gap: 40px;
+        
+    }
+   .photo-part{
+    grid-template-columns: repeat(1,1fr);
+   }
+   .first{
+    grid-template-columns: repeat(1 , 1fr);
+   }
+    
+}
