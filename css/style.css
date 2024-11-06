@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #111111;
+ 
+}
+.first{
+    background-color: #303030;
+   
+}
+/* ************ */
+.display-flex{
+    display: flex;
+}
+.huge{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+/* ************* */
+
+/****************banner start***************/
+.fintes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: #E6533C;
+    
+}
+.head{
+    font-style: italic;
+}
+.menu-bar{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+   
+}
+ .menu-bar .home{
+    background-color: #E6533C;
+    border-radius: 5px;
+}
+.menu-bar >li{
+    list-style: none;
+}
+.menu-bar >li >a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.get{
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.shape{
+    font-style: italic;
+}
+.club{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #E6533C;
+    border: none;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.ghor{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.banner{
+    justify-content: space-around;
+    margin-left: 70px;
+}
+.workout{
+    border: 1px solid black;
+    color: #ffffff;
+    width: 160px;
+    padding: 20px 25px;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    background-color: #111111;
+   
+}
+.position{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+
+    
+}
+.second{
+    align-items: center;
+    gap: 10px;
+    margin-right: 300px;
+    border: 2px solid white;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #111111;
+    margin-right: 200px;
+    
+   
+}
+.three-fifty{
+    font-size: 24px;
+    color: #ffffff;
+}
+/****************banner start***************/
+
+.bg-1{
+    background-color: #111111;
+}
+.change{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.believe{
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+.pictures{
+    align-items: center;
+}
+.movement{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.we{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+}
+.pictures{
+    align-items: center;
+}
+
+/****************habit start***************/
+
+
+
+
+/****************habit end***************/
