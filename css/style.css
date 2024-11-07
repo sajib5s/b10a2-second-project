@@ -1,14 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 .body{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   background-color: #111111;
- 
 }
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 .first{
     background-color: #303030;
    
@@ -20,7 +27,7 @@
 .huge{
     font-size: 16px;
     font-weight: 400;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.5);
 
 }
 /* ************* */
@@ -44,13 +51,15 @@
     font-size: 18px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
-    border: 1px solid black;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
+    padding: 5px 15px 5px 1px;
    
 }
  .menu-bar .home{
     background-color: #E6533C;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 2px 2px 2px 2px;
 }
 .menu-bar >li{
     list-style: none;
@@ -101,7 +110,7 @@
     font-weight: 700;
     border-radius: 10px;
     border: none;
-    background-color: #111111;
+    background-color: rgba(255, 255, 255, 0.1);
    
 }
 .position{
@@ -114,7 +123,6 @@
     height: 40px;
     background-color: #E6533C;
     border-radius: 50%;
-
     
 }
 .second{
@@ -122,13 +130,15 @@
     gap: 10px;
     margin-right: 300px;
     border: 2px solid white;
-    padding: 5px 20px;
+    padding: 3px 17px;
     border-radius: 15px;
     border: none;
-    background-color: #111111;
+    background-color: rgba(255, 255, 255, 0.1);
     margin-right: 200px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -100px;
     
-   
 }
 .three-fifty{
     font-size: 24px;
@@ -181,7 +191,7 @@
     margin-left: 20px;
 }
 .we{
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: 14px;
    
@@ -208,7 +218,7 @@
     color: #ffffff;
 }
 .believe{
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 }
 .should{
@@ -257,7 +267,7 @@
     margin-left: 255px;
 }
 .everyone{
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     margin-left: 255px;
     margin-bottom: 50px;
@@ -303,8 +313,278 @@
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     margin-right: 50px;
+    margin-bottom: 300px;
 }
 /************Trainings and Exercises end*********/
+
+/*************BMI Calculator start***************/
+.tabel-section{
+    background-color: rgba(34, 34, 34, 1);
+    height: 480px;
+}
+.bmi{
+    margin-left: 100px;
+}
+.status{
+    color: white;
+}
+.below{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+td,th{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color:rgba(255, 255, 255, 0.5) ;
+    padding: 15px 10px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 40px;   
+}
+.tabel-section{
+    justify-content:space-around;
+}
+.chart{
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 35px;
+}
+.your-bmi{
+    margin-left: 330px;
+}
+.gridian{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-left: 580px;
+    gap: 20px;
+    padding: 10px 5px;
+}
+.height{
+    padding: 10px 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.calculate-btn{
+    margin-left: 585px;
+   margin-top: 20px;
+}
+.calculate{
+    font-size: 18px;
+    background-color: #E6533C;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+/*************BMI Calculator end***************/
+
+/***************meet our team start**************/
+.teamss{
+    color: #ffffff;
+    font-size: 40px;
+}
+.income{
+    color: #ffffff;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.beb{
+    text-align: center;
+}
+.pictures{
+    
+}
+.trainer-one{
+    width: 320px;
+    height: 270px;
+    border-radius: 12px;
+}
+.trainer-two{
+    width: 320px;
+    height: 270px;
+    border-radius: 12px;
+}
+.trainer-three{
+    width: 320px;
+    height: 270px;
+    border-radius: 12px;
+   
+}
+.trainer-four{
+    width: 320px;
+    height: 270px;
+    border-radius: 12px;
+}
+.trainer-five{
+    width: 320px;
+    height: 270px;
+    border-radius: 12px;
+}
+.trainer-six{
+    width: 320px;
+    height: 270px;
+    border-radius: 12px;
+}
+.picturess{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-left: 260px;
+   gap: 20px;
+   background-color: #222222;
+   margin-top: 30px;
+}
+.bangladesh{
+    position: absolute;
+    margin-top: 200px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.trainer{
+    position: absolute;
+    margin-top: 230px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5)f;
+    margin-left: 20px;
+}
+.cameron{
+    position: absolute;
+    margin-top: 200px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.wiliams{
+    position: absolute;
+    margin-top: 230px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+}
+.darell{
+    position: absolute;
+    margin-top: 200px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.steward{
+    position: absolute;
+    margin-top: 230px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+}
+.dianee{
+    position: absolute;
+    margin-top: 200px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.reseel{
+    position: absolute;
+    margin-top: 230px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+}
+.cody{
+    position: absolute;
+    margin-top: 200px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.fiser{
+    position: absolute;
+    margin-top: 230px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+}
+.teresa{
+    position: absolute;
+    margin-top: 200px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.webb{
+    position: absolute;
+    margin-top: 230px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+}
+/***************meet our team end***************/
+
+/***************footer part start***************/
+.freebg{
+    background-color: #222222;
+    height: 320px;
+}
+.foot{
+    justify-content: center;
+    gap: 130px;
+    margin-top: 40px;
+}
+.italic{
+    font-size: 35px;
+    font-weight: 700;
+    color: #E6533C;
+    font-style: italic;
+   
+}
+.italic-pera{
+    margin-top: 20px;
+}
+.pera{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.started{
+    color: #ffffff;
+    font-size: 30px;
+}
+.last-item{
+    list-style: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.wood{
+    margin-top: 10px;
+}
+.platform{
+    margin-top: 10px;
+}
+.library{
+    margin-top: 10px;
+}
+.app{
+    margin-top: 10px;
+}
+.get-started{
+    color: #ffffff;
+    font-size: 30px;
+}
+.line{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 0px;
+    width: 1000px;
+    color: #ffffff;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.right{
+    margin-left: 40%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+/***************footer part end***************/
 
 
 /* responsive website********************/
